@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/lib/python_interface/test_script.py
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/ament_index/resource_index/package_run_dependencies/python_interface
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/ament_index/resource_index/parent_prefix_path/python_interface
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/environment/path.sh
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/environment/path.dsv
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/local_setup.bash
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/local_setup.sh
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/local_setup.zsh
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/local_setup.dsv
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/package.dsv
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/ament_index/resource_index/packages/python_interface
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/cmake/python_interfaceConfig.cmake
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/cmake/python_interfaceConfig-version.cmake
+-- Symlinking: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface/share/python_interface/package.xml

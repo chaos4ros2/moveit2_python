@@ -11,10 +11,20 @@ setup(**d)
 
 import os
 from glob import glob
-from setuptools import setup
+# https://buildersbox.corp-sansan.com/entry/2019/12/09/110000
+# from distutils.core import Extension
+from setuptools import setup, Extension
 from setuptools import find_packages
 
 package_name = 'moveit_commander'
+
+module = Extension(
+    'python_interface',
+    sources = ['/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/moveit_commander/python_interface/wrap_python_robot_interface.cpp'],
+    include_dirs = ['/usr/local/include/boost'],        # boostのインクルードディレクトリ
+    library_dirs = ['/usr/local/lib'],                  # boostのライブラリディレクトリ
+    libraries = ['boost_python']                        # libboost_python.aをリンクする
+)
 
 setup(
     name=package_name,
@@ -32,4 +42,5 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
+    ext_modules = [module],
 )

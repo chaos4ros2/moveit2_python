@@ -1,0 +1,15 @@
+CMake Error at CMakeLists.txt:45 (add_library):
+  Cannot find source file:
+
+    core.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:45 (add_library):
+  No SOURCES given to target: _core
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:222: cmake_check_build_system] エラー 1

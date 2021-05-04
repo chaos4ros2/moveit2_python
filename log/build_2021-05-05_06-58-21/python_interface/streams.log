@@ -1,0 +1,38 @@
+[0.010s] Invoking command in '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaos/moveit2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface
+[0.021s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.135s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.270s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.360s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.380s] -- Found moveit_core: 2.1.0 (/home/chaos/moveit2_ws/install/moveit_core/share/moveit_core/cmake)
+[0.390s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.611s] -- Found moveit_ros_planning: 2.1.0 (/home/chaos/moveit2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.614s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[1.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[2.412s] -- Found moveit_ros_planning_interface: 2.1.0 (/home/chaos/moveit2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.415s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[2.419s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options python system thread 
+[2.749s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[3.313s] -- Configuring done
+[3.314s] -- Generating done
+[3.315s] -- Build files have been written to: /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface
+[3.321s] Invoked command in '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaos/moveit2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/install/python_interface
+[3.322s] Invoking command in '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaos/moveit2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --build /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface -- -j8 -l8
+[3.355s] Invoked command in '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaos/moveit2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --build /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface -- -j8 -l8
+[3.385s] Invoking command in '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaos/moveit2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --install /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface
+[3.391s] -- Install configuration: ""
+[3.392s] -- Execute custom install script
+[3.392s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[3.392s]   ament_cmake_symlink_install_programs() can't find
+[3.392s]   '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/test_script.py'
+[3.392s] Call Stack (most recent call first):
+[3.392s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_programs)
+[3.392s]   cmake_install.cmake:41 (include)
+[3.392s] 
+[3.392s] 
+[3.393s] Invoked command in '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaos/moveit2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --install /home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/build/python_interface

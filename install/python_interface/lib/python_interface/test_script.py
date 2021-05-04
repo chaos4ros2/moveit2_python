@@ -1,0 +1,1 @@
+/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/test_script.py

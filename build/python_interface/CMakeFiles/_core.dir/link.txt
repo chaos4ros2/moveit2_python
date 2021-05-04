@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,_core.so -o _core.so CMakeFiles/_core.dir/src/python/core.cpp.o CMakeFiles/_core.dir/src/python/ros_init.cpp.o CMakeFiles/_core.dir/src/python/task.cpp.o  -lpython_interface -lpython_interface_stages /usr/lib/x86_64-linux-gnu/libpython3.8.so /usr/lib/x86_64-linux-gnu/libboost_python38.so.1.71.0 

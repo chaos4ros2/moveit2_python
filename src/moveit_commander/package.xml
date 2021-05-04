@@ -16,7 +16,11 @@
   <url type="bugtracker">https://github.com/ros-planning/moveit2/issues</url>
   <url type="repository">https://github.com/ros-planning/moveit2</url>
 
+  <buildtool_depend>python3-catkin-pkg</buildtool_depend>
+
   <depend>rclpy</depend>
+  <depend>python3</depend>
+  <depend>tf2</depend>
 
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>moveit_msgs</exec_depend>
@@ -24,6 +28,7 @@
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>shape_msgs</exec_depend>
   <exec_depend>tf2</exec_depend>
+  <exec_depend>python3-pyassimp</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>

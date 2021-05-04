@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/conversions.h
+boost/python.hpp
+-
+boost/python/stl_iterator.hpp
+-
+string
+-
+vector
+-
+map
+-
+
+/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/core.cpp
+boost/python.hpp
+-
+
+/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/ros_init.cpp
+memory
+-
+boost/python.hpp
+-
+boost/thread/mutex.hpp
+-
+ros/init.h
+-
+conversions.h
+/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/conversions.h
+
+/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/task.cpp
+moveit/task_constructor/task.h
+-
+boost/python.hpp
+-
+

@@ -1,0 +1,8 @@
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/home/chaos/moveit2_ws/src/moveit2_tutorials/doc/moveit2_commander_ws/src/python_interface/src/python/test_script.py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:41 (include)
+
+
