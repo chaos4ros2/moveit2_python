@@ -14,4 +14,4 @@ python interface for moveit2
 ## Node
 Only included conversion core by Boost:Python now.
 
-so nothing will happen but launch a node named "moveit_python_wrapper".
+So nothing will happen but launch a node named "moveit_python_wrapper".
