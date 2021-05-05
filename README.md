@@ -3,6 +3,8 @@
 ## Description
 python interface for moveit2 
 
+Use Boost:Python to create a shared library from C++ for pyhton 
+
 ## Road Map
 5/5 add conversion core
 
