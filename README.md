@@ -11,4 +11,7 @@ python interface for moveit2
 2. source install/setup.bash
 3. ros2 run python_interface test_script.py
 
-※ Only included conversion core by Boost:Python now.
+## Node
+Only included conversion core by Boost:Python now.
+
+so nothing will happen but launch a node named "moveit_python_wrapper".
