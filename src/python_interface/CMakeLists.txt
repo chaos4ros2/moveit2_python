@@ -53,6 +53,8 @@ set_target_properties(_core PROPERTIES PREFIX "")
 # Install python scripts
 install(PROGRAMS
   src/python/test_script.py
+  src/python/moveit_commander/robot.py
+  src/python/moveit_commander/planning_scene_interface.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
