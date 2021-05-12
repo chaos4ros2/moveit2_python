@@ -11,13 +11,6 @@
 
 #include "conversions.h"
 
-// new 425
-static std::vector<std::string>& ROScppArgs()
-{
-  static std::vector<std::string> args;
-  return args;
-}
-
 namespace moveit {
 namespace python {
 
@@ -73,13 +66,20 @@ InitProxy::InitProxy(const std::string& node_name, const boost::python::dict& re
 	// ####################################################
 	// ####################################################
     // ros2 #425
-	const std::vector<std::string>& args = ROScppArgs();
-    int fake_argc = args.size();
-    char** fake_argv = new char*[args.size()];
-    for (std::size_t i = 0; i < args.size(); ++i)
-      fake_argv[i] = strdup(args[i].c_str());
-
-	rclcpp::init(fake_argc, NULL);
+	// fromDict => see conversions.h
+	// const std::vector<std::string>& args = ROScppArgs();
+    // int fake_argc = args.size();
+    // char** fake_argv = new char*[args.size()];
+    // for (std::size_t i = 0; i < args.size(); ++i)    
+	//  fake_argv[i] = strdup(args[i].c_str());
+	int size = fromDict<std::string>(remappings).size();
+	int counter = 0;
+	char** argv = new char*[size];
+	for (const auto& [key, value] : fromDict<std::string>(remappings)){
+		argv[counter] = strdup(value.c_str());
+		counter++;
+    }
+	rclcpp::init(size, argv);
 	rclcpp::executors::MultiThreadedExecutor executor;
 	auto node = rclcpp::Node::make_shared(node_name);
 	executor.add_node(node);
