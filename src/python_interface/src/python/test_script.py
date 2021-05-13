@@ -13,7 +13,8 @@ from geometry_msgs.msg import PoseStamped
 # 3. rewrite robot.py
 # 4. test pick.py (https://github.com/ros-planning/moveit2/blob/main/moveit_commander/demos/pick.py)
 def main(args = None):
-    rclcpp_init(sys.argv)
+    # print(sys.argv)
+    rclcpp_init('')
     rclpy.init(args = args)
     node = Node('moveit_py_demo')
     node.get_logger().info('moveit2 python interface demo')
